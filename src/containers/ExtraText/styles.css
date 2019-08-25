@@ -1,0 +1,27 @@
+.tj-extra-text {
+  position: absolute;
+  top: 420px;
+  right: 0;
+  left: 0;
+  z-index: 100;
+
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 80px;
+  line-height: 1;
+  font-weight: 700;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
+    1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+  -webkit-animation: blinker 1s infinite; /* Safari 4+ */
+  -moz-animation: blinker 1s infinite; /* Fx 5+ */
+  -o-animation: blinker 1s infinite; /* Opera 12+ */
+  animation: blinker 1s infinite; /* IE 10+, Fx 29+ */
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

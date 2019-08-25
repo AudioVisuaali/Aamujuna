@@ -1,0 +1,20 @@
+.orbit {
+  z-index: 100;
+  width: 10px;
+  position: absolute;
+  bottom: 30px;
+  left: 140px;
+  height: 70%;
+}
+
+.orbit .orbit-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.orbit img {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+}
