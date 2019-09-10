@@ -1,6 +1,6 @@
 # Aamujuna
 
-This marvelous piece of code allows the user to show the remaining days. This is normally associated with `Days left today` with Finnish military service. __Only used create-react-app with no additional packages.__
+This marvelous piece of code allows the user to show the remaining days. This is normally associated with `Days left today` with Finnish military service. __Only used `create-react-app` with _no_ additional packages.__
 
 ## URL args
 
